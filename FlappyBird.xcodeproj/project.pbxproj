@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EC5F84B24A88B73002BBD8E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5F84A24A88B73002BBD8E /* GameScene.swift */; };
 		4EFEA9A724A5DA9E00624228 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFEA9A624A5DA9E00624228 /* AppDelegate.swift */; };
 		4EFEA9A924A5DA9E00624228 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFEA9A824A5DA9E00624228 /* SceneDelegate.swift */; };
 		4EFEA9AB24A5DA9E00624228 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFEA9AA24A5DA9E00624228 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4EC5F84A24A88B73002BBD8E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		4EFEA9A324A5DA9E00624228 /* FlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EFEA9A624A5DA9E00624228 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EFEA9A824A5DA9E00624228 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				4EFEA9A624A5DA9E00624228 /* AppDelegate.swift */,
 				4EFEA9A824A5DA9E00624228 /* SceneDelegate.swift */,
 				4EFEA9AA24A5DA9E00624228 /* ViewController.swift */,
+				4EC5F84A24A88B73002BBD8E /* GameScene.swift */,
 				4EFEA9AC24A5DA9E00624228 /* Main.storyboard */,
 				4EFEA9AF24A5DA9F00624228 /* Assets.xcassets */,
 				4EFEA9B124A5DA9F00624228 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				4EFEA9AB24A5DA9E00624228 /* ViewController.swift in Sources */,
 				4EFEA9A724A5DA9E00624228 /* AppDelegate.swift in Sources */,
+				4EC5F84B24A88B73002BBD8E /* GameScene.swift in Sources */,
 				4EFEA9A924A5DA9E00624228 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.msaka73.FlappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.msaka73.FlappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
