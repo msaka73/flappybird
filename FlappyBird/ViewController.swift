@@ -28,7 +28,11 @@ class ViewController: UIViewController {
         print("③ここまできた")
         
     }
-
-
+    //ステータスバーの非表示（時間,バッテリ量など)
+    override var prefersStatusBarHidden: Bool{
+        get{
+            return true
+        }
+    }
 }
 

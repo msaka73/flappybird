@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		4EC5F84B24A88B73002BBD8E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5F84A24A88B73002BBD8E /* GameScene.swift */; };
+		4EC8AD7F24AE6FAF00392F0E /* bgmpop.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4EC8AD7E24AE6FA500392F0E /* bgmpop.caf */; };
+		4EC8AD8424AE705200392F0E /* normal.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4EC8AD8224AE703A00392F0E /* normal.caf */; };
+		4EC8AD8524AE705200392F0E /* poison.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4EC8AD8024AE703A00392F0E /* poison.caf */; };
+		4EC8AD8624AE705200392F0E /* spoilt.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4EC8AD8124AE703A00392F0E /* spoilt.caf */; };
+		4EC8AD8724AE705200392F0E /* super.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4EC8AD8324AE703A00392F0E /* super.caf */; };
+		4EC8AD8A24AE73E000392F0E /* Down.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4EC8AD8924AE73D400392F0E /* Down.caf */; };
+		4EC8AD8B24AE73E000392F0E /* Down2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4EC8AD8824AE73D300392F0E /* Down2.caf */; };
 		4EFEA9A724A5DA9E00624228 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFEA9A624A5DA9E00624228 /* AppDelegate.swift */; };
 		4EFEA9A924A5DA9E00624228 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFEA9A824A5DA9E00624228 /* SceneDelegate.swift */; };
 		4EFEA9AB24A5DA9E00624228 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFEA9AA24A5DA9E00624228 /* ViewController.swift */; };
@@ -18,6 +25,13 @@
 
 /* Begin PBXFileReference section */
 		4EC5F84A24A88B73002BBD8E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		4EC8AD7E24AE6FA500392F0E /* bgmpop.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = bgmpop.caf; path = "音/bgmpop.caf"; sourceTree = SOURCE_ROOT; };
+		4EC8AD8024AE703A00392F0E /* poison.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = poison.caf; path = "音/poison.caf"; sourceTree = SOURCE_ROOT; };
+		4EC8AD8124AE703A00392F0E /* spoilt.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = spoilt.caf; path = "音/spoilt.caf"; sourceTree = SOURCE_ROOT; };
+		4EC8AD8224AE703A00392F0E /* normal.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = normal.caf; path = "音/normal.caf"; sourceTree = SOURCE_ROOT; };
+		4EC8AD8324AE703A00392F0E /* super.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = super.caf; path = "音/super.caf"; sourceTree = SOURCE_ROOT; };
+		4EC8AD8824AE73D300392F0E /* Down2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Down2.caf; path = "音/Down2.caf"; sourceTree = SOURCE_ROOT; };
+		4EC8AD8924AE73D400392F0E /* Down.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Down.caf; path = "音/Down.caf"; sourceTree = SOURCE_ROOT; };
 		4EFEA9A324A5DA9E00624228 /* FlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EFEA9A624A5DA9E00624228 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EFEA9A824A5DA9E00624228 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +78,13 @@
 				4EC5F84A24A88B73002BBD8E /* GameScene.swift */,
 				4EFEA9AC24A5DA9E00624228 /* Main.storyboard */,
 				4EFEA9AF24A5DA9F00624228 /* Assets.xcassets */,
+				4EC8AD8224AE703A00392F0E /* normal.caf */,
+				4EC8AD8924AE73D400392F0E /* Down.caf */,
+				4EC8AD8824AE73D300392F0E /* Down2.caf */,
+				4EC8AD8024AE703A00392F0E /* poison.caf */,
+				4EC8AD8124AE703A00392F0E /* spoilt.caf */,
+				4EC8AD8324AE703A00392F0E /* super.caf */,
+				4EC8AD7E24AE6FA500392F0E /* bgmpop.caf */,
 				4EFEA9B124A5DA9F00624228 /* LaunchScreen.storyboard */,
 				4EFEA9B424A5DA9F00624228 /* Info.plist */,
 			);
@@ -128,6 +149,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EC8AD8A24AE73E000392F0E /* Down.caf in Resources */,
+				4EC8AD8B24AE73E000392F0E /* Down2.caf in Resources */,
+				4EC8AD8424AE705200392F0E /* normal.caf in Resources */,
+				4EC8AD8524AE705200392F0E /* poison.caf in Resources */,
+				4EC8AD8624AE705200392F0E /* spoilt.caf in Resources */,
+				4EC8AD8724AE705200392F0E /* super.caf in Resources */,
+				4EC8AD7F24AE6FAF00392F0E /* bgmpop.caf in Resources */,
 				4EFEA9B324A5DA9F00624228 /* LaunchScreen.storyboard in Resources */,
 				4EFEA9B024A5DA9F00624228 /* Assets.xcassets in Resources */,
 				4EFEA9AE24A5DA9E00624228 /* Main.storyboard in Resources */,
